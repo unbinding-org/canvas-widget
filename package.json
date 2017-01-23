@@ -1,0 +1,18 @@
+{
+  "name": "canvas-widget",
+  "version": "0.1.0",
+  "description": "interactive html5 canvas",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo src/index.js --live --pushstate --css src/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kareniel",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^9.4.5"
+  },
+  "dependencies": {
+    "choo": "^4.1.0"
+  }
+}
